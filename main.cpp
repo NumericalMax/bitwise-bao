@@ -194,7 +194,6 @@ int main(int argc, char** argv){
     end = std::chrono::system_clock::now();
     std::cout << a << " + " << b << " = " << c << std::endl;
     elapsed_nanoseconds = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
-    end_time = std::chrono::system_clock::to_time_t(end);
     std::cout << "Elapsed time builtin: " << elapsed_nanoseconds << " nanoseconds\n" << std::endl;
     
     
@@ -215,7 +214,6 @@ int main(int argc, char** argv){
     end = std::chrono::system_clock::now();
     std::cout << a << " - " << b << " = " << c << std::endl;
     elapsed_nanoseconds = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
-    end_time = std::chrono::system_clock::to_time_t(end);
     std::cout << "Elapsed time builtin: " << elapsed_nanoseconds << " nanoseconds\n" << std::endl;
     
     
@@ -236,7 +234,6 @@ int main(int argc, char** argv){
     end = std::chrono::system_clock::now();
     std::cout << a << " * " << b << " = " << c << std::endl;
     elapsed_nanoseconds = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
-    end_time = std::chrono::system_clock::to_time_t(end);
     std::cout << "Elapsed time builtin: " << elapsed_nanoseconds << " nanoseconds\n" << std::endl;
     
     
@@ -257,7 +254,6 @@ int main(int argc, char** argv){
     end = std::chrono::system_clock::now();
     std::cout << a << " / " << b << " = " << c << std::endl;
     elapsed_nanoseconds = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
-    end_time = std::chrono::system_clock::to_time_t(end);
     std::cout << "Elapsed time builtin: " << elapsed_nanoseconds << " nanoseconds\n" << std::endl;
     
     
