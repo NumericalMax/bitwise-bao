@@ -21,3 +21,7 @@ cd bitwise-bao
 g++ main.cpp -o main
 ./main
 ```
+The program will ask you for three parameters:
+1. a = First Number
+2. b = Second Number
+3. n = Number of computations performed for each basic algorithmic operation. You can set this parameter to 1, unless you want to perform time measurement. In the latter case large n will result in more stable time measurements.
