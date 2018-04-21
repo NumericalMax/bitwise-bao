@@ -5,7 +5,7 @@
 
 /**
  main.cpp
- Purpose: Calculates basic mathematical operation using solely binary operators
+ Purpose: Calculates basic mathematical operation using solely bitwise operators
  
  @author Max Kapsecker
  @version 1.0 18/04/18
