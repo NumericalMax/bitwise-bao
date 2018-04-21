@@ -13,9 +13,11 @@ Multiplication of two integers a and b: a * b
 # /
 Division of two integers a and b without rest: a / b
 
-# How to execute in terminal:
+# How to execute in the terminal:
 
 ```
+git clone https://github.com/NumericalMax/bitwise-bao.git
+cd bitwise-bao
 g++ main.cpp -o main
 ./main
 ```
