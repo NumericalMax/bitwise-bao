@@ -12,3 +12,10 @@ Multiplication of two integers a and b: a * b
 
 # /
 Division of two integers a and b without rest: a / b
+
+# How to execute in terminal:
+
+```
+g++ main.cpp -o main
+./main
+```
